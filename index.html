@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <!-- Sidebar -->
+    <aside class="sidebar" id="sidebar">
+      <h2>My Dashboard</h2>
+      <ul>
+        <li>🏠 Home</li>
+        <li>📊 Analytics</li>
+        <li>👥 Users</li>
+        <li>⚙️ Settings</li>
+        <li>📧 Messages</li>
+      </ul>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="main">
+      <header>
+        <button id="toggleBtn">☰</button>
+        <h1>Dashboard Overview</h1>
+      </header>
+
+      <!-- Cards -->
+      <section class="cards">
+        <div class="card">
+          <h3>Total Users</h3>
+          <p id="users">0</p>
+        </div>
+
+        <div class="card">
+          <h3>Total Sales</h3>
+          <p id="sales">0</p>
+        </div>
+
+        <div class="card">
+          <h3>Revenue</h3>
+          <p id="revenue">₹0</p>
+        </div>
+
+        <div class="card">
+          <h3>Orders</h3>
+          <p id="orders">0</p>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
